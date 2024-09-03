@@ -16,11 +16,11 @@
         "title": [
           {
             "lang": "de",
-            "value": "Bildungsstandards für die Kompetenzbereiche im Fach Biologie"
+            "value": "Kompetenzbereiche des Fachs Biologie"
           }
         ],
-        "filenameSource": "k1_Bildungsstandards_Kompetenzbereiche.csv",
-        "filenameTarget": "k1_Bildungsstandards_Kompetenzbereiche.ttl",
+        "filenameSource": "k2_Kompetenzbereiche.csv",
+        "filenameTarget": "k2_Kompetenzbereiche.ttl",
         "description": [
           {
             "lang": "de",

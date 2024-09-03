@@ -1,0 +1,493 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v44/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v44/k1/>. 
+
+n1:y5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:e2x;
+	skos:prefLabel "beschreiben biologische Sachverhalte sachgerecht;"@de.
+n1:c3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:e2x;
+	skos:prefLabel "erschließen biologische Phänomene, auch mit Bezügen zu Basiskonzepten;"@de.
+n1:f3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:e2x;
+	skos:prefLabel "erklären biologische Sachverhalte, auch mit Bezügen zu Basiskonzepten."@de.
+n1:e2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:y2z;
+	skos:prefLabel "Biologische Sachverhalte betrachten"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:y5r,
+		n1:c3h,
+		n1:f3r.
+n1:c3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:z9x;
+	skos:prefLabel "strukturieren die Eigenschaften lebender Systeme, auch mit Bezügen zu Basiskon-zepten;"@de.
+n1:d7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:z9x;
+	skos:prefLabel "stellen Zusammenhänge zwischen Systemebenen dar;"@de.
+n1:q7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:z9x;
+	skos:prefLabel "erläutern Prozesse in und zwischen lebenden Systemen, auch mit Bezug zu abioti-schen Faktoren;"@de.
+n1:d5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:z9x;
+	skos:prefLabel "erklären die Bedeutung von Biodiversität sowie nachhaltige Maßnahmen für deren Schutz."@de.
+n1:z9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:y2z;
+	skos:prefLabel "Lebende Systeme betrachten"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:c3e,
+		n1:d7d,
+		n1:q7b,
+		n1:d5z.
+n1:y2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sachkompetenz"@de; 
+	skos:definition """Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Begriffe, Konzepte, Gesetzmäßigkeiten, Theorien und Verfahren verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, sachgerecht zu nutzen und auf fach- und alltagsbezogene Sachverhalte zu übertragen. \n\nZum Bereich der Sachkompetenz gehören der Erwerb fundierten Wissens über biologische Sachverhalte und der Aufbau von Kompetenzen im Sinne einer Allgemeinbildung. Diese Kompetenzen ermöglichen es, theoriegeleitet Fragen zu stellen, Problemstellungen im Zusammenhang mit biologischen Sachverhalten zu bewältigen und Fragen aus dem alltäglichen Leben zu naturwissenschaftlichen Sachverhalten zu beantworten. \n\n Zur Sachkompetenz im Bereich der Biologie gehört das Beschreiben, Erschließen und Erklären von biologischen Phänomenen. Dabei werden Zusammenhänge qualitativ und quantitativ erklärt sowie Vernetzungen zwischen Systemebenen aufgezeigt. Biodiversität wird auf verschiedenen Systemebenen beschrieben und die Notwendigkeit von nachhaltigen Maßnahmen zu ihrem Erhalt und Schutz wird mit der Bedeutung von Vielfalt und Einheitlichkeit erläutert und auch an außerschulischen Lernorten erfahren. Aspekte der Evolutionstheorie werden zur Erklärung biologischer Phänomene genutzt."""@de;
+	skos:narrower 
+		n1:e2x,
+		n1:z9x.
+n1:t4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:e2q;
+	skos:prefLabel "gehen mit Labormaterial und technischen Geräten sachgerecht unter Berücksichtigung der Sicherheitsbestimmungen um;"@de.
+n1:b2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:e2q;
+	skos:prefLabel "mikroskopieren sachgerecht unter Berücksichtigung der Sicherheitsbestimmungen;"@de.
+n1:d9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:e2q;
+	skos:prefLabel "gehen mit Lebewesen artgerecht unter Berücksichtigung von Sicherheits- und Schutzbestimmungen um;"@de.
+n1:e3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:e2q;
+	skos:prefLabel "untersuchen biologische Objekte, auch an außerschulischen Lernorten unter Berücksichtigung von Sicherheits- und Schutzbestimmungen."@de.
+n1:e2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:b5q;
+	skos:prefLabel "Arbeitstechniken anwenden"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:t4q,
+		n1:b2e,
+		n1:d9h,
+		n1:e3p.
+n1:h9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:s5h;
+	skos:prefLabel "beschreiben Phänomene durch kriteriengeleitetes Beobachten, auch mit Bezügen zu Basiskonzepten;"@de.
+n1:b9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:s5h;
+	skos:prefLabel "formulieren Fragestellungen mit Zusammenhangshypothesen für das Beobachten und mit Unterschiedshypothesen für das Vergleichen;"@de.
+n1:p4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:s5h;
+	skos:prefLabel "planen und führen das Beobachten kriteriengeleitet, das Vergleichen und Ordnen kri-terienstet auch unter Verwendung digitaler Werkzeuge durch;"@de.
+n1:q5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.4";
+	skos:broader n1:s5h;
+	skos:prefLabel "werten Daten aus dem Beobachten, Vergleichen und Ordnen auch mit digitalen Werk-zeugen aus und interpretieren die Ergebnisse kriterienbezogen."@de.
+n1:s5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:b5q;
+	skos:prefLabel "Kriteriengeleitet beobachten, kriterienstet vergleichen und ordnen"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:h9s,
+		n1:b9e,
+		n1:p4g,
+		n1:q5h.
+n1:a6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:y5s;
+	skos:prefLabel "formulieren Fragestellungen und Hypothesen zu Ursache-Wirkungs-Beziehungen;"@de.
+n1:d7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:y5s;
+	skos:prefLabel "planen und führen Experimente unter Beachtung der unabhängigen und der abhängigen Variablen sowie Kontrollen auch mit digitaler Messwerterfassung durch;"@de.
+n1:e4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:y5s;
+	skos:prefLabel "widerlegen oder stützen Hypothesen durch Auswertung und Interpretation von experimentell erhobenen Daten, auch mit Bezügen zu Basiskonzepten."@de.
+n1:y5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:b5q;
+	skos:prefLabel "Hypothesengeleitet experimentieren"@de;
+	skos:narrower 
+		n1:a6e,
+		n1:d7z,
+		n1:e4r.
+n1:e5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1";
+	skos:broader n1:u4v;
+	skos:prefLabel "modellieren mögliche Erklärungen für biologische Phänomene;"@de.
+n1:v4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2";
+	skos:broader n1:u4v;
+	skos:prefLabel "prüfen aus Modellen abgeleitete Hypothesen mit qualitativen und quantitativen Daten auch mit digitalen Werkzeugen;"@de.
+n1:e5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.3";
+	skos:broader n1:u4v;
+	skos:prefLabel "beurteilen die Gültigkeit von Modellen für das Erklären und Voraussagen biologischer Phänomene, auch mit Bezügen zu Basiskonzepten."@de.
+n1:u4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:b5q;
+	skos:prefLabel "Erklärend und voraussagend modellieren"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:e5z,
+		n1:v4x,
+		n1:e5f.
+n1:t2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.1";
+	skos:broader n1:v5t;
+	skos:prefLabel "reflektieren Unterschiede zwischen Beschreibung und Interpretation;"@de.
+n1:q6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.2";
+	skos:broader n1:v5t;
+	skos:prefLabel "reflektieren das methodische Vorgehen im Erkenntnisprozess;"@de.
+n1:g2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.3";
+	skos:broader n1:v5t;
+	skos:prefLabel "reflektieren die Zuverlässigkeit von Ergebnissen unter Berücksichtigung von Fehler-quellen und Unsicherheiten."@de.
+n1:v5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:b5q;
+	skos:prefLabel "Erkenntnisprozess reflektieren"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:t2b,
+		n1:q6a,
+		n1:g2s.
+n1:b5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erkenntnisgewinnungskompetenz"@de; 
+	skos:definition """Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis von naturwissenschaftlichen Denk- und Arbeitsweisen verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, für Erkenntnisprozesse zu nutzen und deren Möglichkeiten und Grenzen zu reflektieren.\n\nWissenschaftliches Arbeiten in der Biologie umfasst den Umgang mit Lebewesen, die Beherrschung von Arbeitstechniken und die Durchführung von wissenschaftlichen Untersuchungen im Sinne des hypothetisch-deduktiven Vorgehens sowie die Reflexion der Möglichkeiten und Grenzen der Naturwissenschaft Biologie. Der Erkenntnisprozess erfolgt in der Regel theoriebasiert, wobei auch explorative Erkenntnisprozesse zum wissenschaftlichen Vorgehen gehören.\n\nAusgehend von Phänomenen umfasst der Erkenntnisprozess folgende Denkschritte: Formulierung von Fragestellungen, Ableitung von Hypothesen, Planung und Durchführung von Untersuchungen, Auswertung von Daten, Interpretation der Ergebnisse und methodische Reflexion zur Widerlegung bzw. Stützung der Hypothese sowie zur Beantwortung von Fragestellungen. Denkschritte wie diese werden in spezifischen Arbeitsweisen umgesetzt und in vielfältiger Weise dokumentiert beziehungsweise protokolliert.\n\n Je nach Forschungsgegenstand und Fragestellung werden biologische Arbeitsweisen angewendet: kriterienbezogenes Beobachten, Vergleichen und Ordnen, Bestimmen, hypothesengeleitetes Experimentieren und zweckbezogenes Modellieren. Für das forschungsbasierte Lernen, auch zu interdisziplinären Fragestellungen, eignen sich außerschulische Lernorte besonders gut. Im Erkenntnisprozess werden auch digitale Werkzeuge genutzt und ihre Bedeutung für die naturwissenschaftliche Erkenntnisgewinnung reflektiert."""@de;
+	skos:narrower 
+		n1:e2q,
+		n1:s5h,
+		n1:y5s,
+		n1:u4v,
+		n1:v5t.
+n1:h4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:d6c;
+	skos:prefLabel "recherchieren zu biologischen Sachverhalten quellenbezogen und zielgerichtet in analogen und digitalen Medien;"@de.
+n1:b2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:d6c;
+	skos:prefLabel "beziehen aussagekräftige Informationen und Daten zu biologischen Sachverhalten zur Bearbeitung von Fragestellungen ein, auch mit Bezügen zu Basiskonzepten;"@de.
+n1:z5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:d6c;
+	skos:prefLabel "prüfen Zuverlässigkeit und Vertrauenswürdigkeit von Darstellungen in Quellen."@de.
+n1:d6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:f4h;
+	skos:prefLabel "Informationen erschließen"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:h4d,
+		n1:b2f,
+		n1:z5x.
+n1:b4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:a3s;
+	skos:prefLabel "beschreiben biologische Sachverhalte fachsprachlich angemessen, auch mit Bezügen zu Basiskonzepten;"@de.
+n1:p9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:a3s;
+	skos:prefLabel "erklären biologische Sachverhalte proximat oder ultimat;"@de.
+n1:u7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:a3s;
+	skos:prefLabel "veranschaulichen Daten situations- und adressatengerecht mit fachtypischen Darstellungsformen, auch mit digitalen Werkzeugen."@de.
+n1:a3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:f4h;
+	skos:prefLabel "Informationen aufbereiten"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:b4x,
+		n1:p9x,
+		n1:u7h.
+n1:y6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n1:t7s;
+	skos:prefLabel "präsentieren Arbeitsergebnisse situations- und adressatengerecht unter Anwendung von Fachsprache und fachtypischen Darstellungsformen mit analogen oder digitalen Medien;"@de.
+n1:f2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n1:t7s;
+	skos:prefLabel "tauschen Informationen über biologische Sachverhalte unter Anwendung von Fach-sprache aus;"@de.
+n1:y2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.3";
+	skos:broader n1:t7s;
+	skos:prefLabel "argumentieren strukturiert auf der Grundlage biologischer Erkenntnisse;"@de.
+n1:g7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.4";
+	skos:broader n1:t7s;
+	skos:prefLabel "reflektieren die Nutzung analoger und digitaler Werkzeuge und Medien."@de.
+n1:t7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:f4h;
+	skos:prefLabel "Informationen austauschen und diskutieren"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:y6t,
+		n1:f2a,
+		n1:y2q,
+		n1:g7c.
+n1:f4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunikationskompetenz"@de; 
+	skos:definition """Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache und fachtypischen Darstellungen verbunden mit der Fähigkeit, daraus fachbezogene Informationen zu erschließen, diese adressaten- und situationsgerecht aufzubereiten und sich argumentativ auszutauschen.\n\nDas Erschließen umfasst die zielgerichtete Recherche zu biologischen Sachverhalten in analogen und digitalen Medien. Dabei werden Informationen aus verschiedenen fachtypischen Darstellungsformen erschlossen und aussagekräftige Informationen ausgewählt. Das Fach Biologie leistet einen Beitrag zum Ausbau der Sprach- und Lesekompetenz ausgehend von Alltagsvorstellungen und fördert die Diskursfähigkeit über Themen der Biologie.\n\nDas Aufbereiten von fach- und problembezogenen Sachverhalten erfolgt strukturiert, zielgerichtet und quellenbasiert in Form von fachsprachlichen Äußerungen und/oder unter Verwendung fachtypischer Darstellungsformen. Hierbei werden auch digitale Werkzeuge genutzt. In fachsprachlichen Äußerungen ist zwischen proximaten und ultimaten Erklärungen zu unterscheiden.\n\nDas Austauschen von Informationen in fachtypischen Darstellungsformen erfolgt unter Verwendung von Fachsprache situations- und adressatengerecht sowie argumentativ begründet."""@de;
+	skos:narrower 
+		n1:d6c,
+		n1:a3s,
+		n1:t7s.
+n1:f6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:x2q;
+	skos:prefLabel "identifizieren in bewertungsrelevanten Sachverhalten biologiebezogene deskriptive und normative Aussagen;"@de.
+n1:v4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:x2q;
+	skos:prefLabel "analysieren normative Aussagen hinsichtlich zugrundeliegender Werte;"@de.
+n1:e5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:x2q;
+	skos:prefLabel "beurteilen den biologischen Inhalt von deskriptiven Argumenten, auch mit Bezügen zu Basiskonzepten;"@de.
+n1:f4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:x2q;
+	skos:prefLabel "überprüfen die Struktur von Argumenten zu bewertungsrelevanten Sachverhalten."@de.
+n1:x2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:h2e;
+	skos:prefLabel "Sachverhalte und Informationen kriteriengeleitet beurteilen"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:f6b,
+		n1:v4p,
+		n1:e5q,
+		n1:f4g.
+n1:s5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:x3g;
+	skos:prefLabel "benennen Bewertungskriterien und Handlungsoptionen ausgehend von Sachinformationen, Werten und Normen;"@de.
+n1:f2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:x3g;
+	skos:prefLabel "gewichten Bewertungskriterien und Handlungsoptionen für Entscheidungen zu be-wertungsrelevanten Sachverhalten;"@de.
+n1:r7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:x3g;
+	skos:prefLabel "treffen Entscheidungen auf der Grundlage von Argumenten, Bewertungskriterien und Handlungsoptionen."@de.
+n1:x3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:h2e;
+	skos:prefLabel "Kriteriengeleitet Entscheidungen treffen"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:s5c,
+		n1:f2y,
+		n1:r7g.
+n1:d4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:d6x;
+	skos:prefLabel "reflektieren kurz- und langfristige, lokale und globale Folgen von Entscheidungen;"@de.
+n1:y4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:d6x;
+	skos:prefLabel "reflektieren Folgen von Entscheidungen für die Natur, das Individuum und die Gesellschaft;"@de.
+n1:d9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.3";
+	skos:broader n1:d6x;
+	skos:prefLabel "reflektieren den Prozess der Bewertung in Bezug auf das Ergebnis und das Verfahren;"@de.
+n1:h7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.4";
+	skos:broader n1:d6x;
+	skos:prefLabel "bewerten Verhaltensweisen zur Erhaltung der eigenen Gesundheit und Maßnahmen nachhaltiger Entwicklung aus verschiedenen, auch fachübergreifenden Perspektiven."@de.
+n1:d6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:h2e;
+	skos:prefLabel "Entscheidungen und deren Folgen reflektieren"@de; 
+	skos:definition "Die Lernenden…"@de;
+	skos:narrower 
+		n1:d4g,
+		n1:y4e,
+		n1:d9r,
+		n1:h7f.
+n1:h2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bewertungskompetenz"@de; 
+	skos:definition """Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren verbunden mit der Fähigkeit, Handlungsoptionen anhand verschiedener Kriterien zu beurteilen, um Entscheidungen auch auf ethischer Grundlage zu treffen, die Folgen abzuschätzen und Entscheidungsprozesse zu reflektieren.\n\nDabei sind bewertungsrelevante Situationen wahrzunehmen, relevante Sachinformationen und Argumente zu beurteilen und deren Herkunft sowie damit verbundene Werte zu identifizieren. In einem Bewertungsprozess werden Handlungsoptionen ausgewertet, Entscheidungen in Bezug auf biologische Sachverhalte aufgrund von gesellschaftlich akzeptierten und persönlich relevanten Werten und Normen getroffen, begründet sowie reflektiert.\n\nBeim systematischen Bewerten von Handlungsmöglichkeiten werden deskriptive und normative Aussagen unterschieden und in Beziehung gesetzt. Dabei werden die individuelle Perspektive und die Perspektiven einzelner Gruppen in der Gesellschaft eingenommen. Dies fördert die Fähigkeit zum Perspektivwechsel und ermöglicht, den eigenen Toleranzrahmen zu erweitern. Nach der fachlichen Klärung wird unter Einbezug individueller und gesellschaftlich verhandelbarer Werte der eigene Standpunkt argumentativ vertreten. Es geht um strukturelle, informierte und ethisch begründete Entscheidungsprozesse, insbesondere in den Bereichen Gesundheit, Sexualität und Nachhaltigkeit. Dies geht im Sinne von Urteilsbildung über die Fachgrenzen der Biologie hinaus und trägt zur Meinungsbildung bei."""@de;
+	skos:narrower 
+		n1:x2q,
+		n1:x3g,
+		n1:d6x.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie 2024 - Kompetenzbereiche des Fachs Biologie"@de;
+	dct:description """Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Lernenden über Kompetenzen in den Naturwissenschaften im Allgemeinen sowie über Kompetenzen in der Biologie im Besonderen.
+
+Die in der Sekundarstufe I erworbenen Kompetenzen und Inhalte bilden unter anderem die Grundlage für ihr zukünftiges Leben, die Berufsausbildung sowie die Sekundarstufe II.
+
+Das den Bildungsstandards für den Mittleren Schulabschluss zugrunde liegende Modell der naturwissenschaftsbezogenen Kompetenzen umfasst die vier Kompetenzbereiche Sach-, Erkenntnisgewinnungs-, Kommunikations- und Bewertungskompetenz:
+
+Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Begriffe, Konzepte, Gesetzmäßigkeiten, Theorien und Verfahren verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, sachgerecht zu nutzen und auf fach- und alltagsbezogene Sachverhalte zu übertragen.
+
+Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis grundlegender naturwissenschaftlicher Denk- und Arbeitsweisen verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, für Erkenntnisprozesse systematisch zu nutzen und deren Möglichkeiten und Grenzen zu reflektieren.
+
+Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache und fachtypischen Darstellungen verbunden mit der Fähigkeit, daraus fachbezogene Informationen zu erschließen, diese adressaten- und situationsgerecht aufzubereiten und sich argumentativ auszutauschen.
+
+Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren verbunden mit der Fähigkeit, Handlungsoptionen anhand verschiedener Kriterien zu beurteilen, um Entscheidungen auch auf ethischer Grundlage zu treffen, die Folgen abzuschätzen und Entscheidungsprozesse zu reflektieren.
+
+Diese vier Kompetenzbereiche durchdringen einander und bilden gemeinsam die Fachkompetenz im Fach Biologie ab. Kompetenzen zeigen sich in der Verbindung von Kenntnissen und Fähigkeiten in den jeweiligen Kompetenzbereichen und sind nur im Umgang mit Inhalten zu erwerben. Die Kompetenzbereiche sind in Teilkompetenzbereiche untergliedert. Sie werden in Form von Regelstandards präzisiert, die von Lernenden bis zum Erreichen des Mittleren Schulabschlusses zu erwerben sind. Verbindliche inhaltliche Aspekte, anhand derer Kompetenzen erworben werden, sind im Kapitel Verbindliche inhaltliche Aspekte aufgeführt."""@de;
+	skos:hasTopConcept
+		n1:y2z,
+		n1:b5q,
+		n1:f4h,
+		n1:h2e.
