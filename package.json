@@ -1,7 +1,7 @@
 {
   "name": "v44",
   "version": "0.1.0",
-  "description": "Bildungsstandards Biologie 2024",
+  "description": "Bildungsstandards Biologie MSA 2024",
   "main": "index.js",
   "scripts": {
     "run_id": "addidcsv csv",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/v44#readme",
   "dependencies": {
-    "@iqb/csv2ttl": "^0.7.8"
+    "@iqb/csv2ttl": "^0.8.1"
   }
 }

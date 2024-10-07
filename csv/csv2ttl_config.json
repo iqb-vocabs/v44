@@ -1,9 +1,9 @@
 {
-    "id": "2024Bio",
+    "id": "2024Biologie",
     "title": [
       {
         "lang": "de",
-        "value": "Bildungsstandards Biologie 2024"
+        "value": "Bildungsstandards Biologie MSA 2024"
       }
     ],
     "csv_delimiter": ",",
@@ -19,8 +19,8 @@
             "value": "Kompetenzbereiche des Fachs Biologie"
           }
         ],
-        "filenameSource": "k2_Kompetenzbereiche.csv",
-        "filenameTarget": "k2_Kompetenzbereiche.ttl",
+        "filenameSource": "k1_Kompetenzbereiche.csv",
+        "filenameTarget": "k1_Kompetenzbereiche.ttl",
         "description": [
           {
             "lang": "de",

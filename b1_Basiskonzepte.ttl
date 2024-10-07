@@ -49,7 +49,7 @@ n1:y9u
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards Biologie 2024 - Basiskonzepte"@de;
+	dct:title "Bildungsstandards Biologie MSA 2024 - Basiskonzepte"@de;
 	dct:description """Der Beschreibung und Erklärung von biologischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Biologie ermöglichen die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen und sind damit für alle Standards bedeutsam. Sie können kumulativ den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.
 
 Lebewesen stehen in stofflichen, energetischen und informatorischen Wechselwirkungen mit ihrer Umwelt, sind offene Systeme, zu Selbstregulation fähig und entwickeln sich individuell und evolutiv. Daraus werden folgende Basiskonzepte für den Biologieunterricht abgeleitet: Struktur und Funktion, Stoff- und Energieumwandlung, Information und Kommunikation, Steuerung und Regelung sowie individuelle und evolutive Entwicklung. Diese Basiskonzepte ermöglichen eine multiperspektivische, vernetzte und vertiefte Herangehensweise an Themen und Problemstellungen des Biologieunterrichts und eine Fokussierung auf zentrale Aspekte innerhalb der Vielfalt biologischer Phänomene. Basiskonzepte lassen sich auf verschiedenen Systemebenen betrachten.

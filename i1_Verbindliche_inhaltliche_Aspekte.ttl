@@ -147,7 +147,7 @@ n1:r7z
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards Biologie 2024 - Verbindliche inhaltliche Aspekte"@de;
+	dct:title "Bildungsstandards Biologie MSA 2024 - Verbindliche inhaltliche Aspekte"@de;
 	dct:description """Die Liste verbindlicher inhaltlicher Aspekte dient dazu, einen einheitlichen Grundstock an Inhalten zu benennen, mithilfe derer die in den Bildungsstandards für das Fach Biologie definierten Kompetenzen erworben und überprüft werden. Diese Inhalte sollen in Grundzügen behandelt oder an Beispielen ausgewählt zum Kompetenzaufbau beitragen. Entsprechende Präzisierungen können landesspezifisch vorgenommen werden."""@de;
 	skos:hasTopConcept
 		n1:f6y,
