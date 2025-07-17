@@ -2,23 +2,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v44/a1/>. 
-@prefix n1: <https://w3id.org/iqb/v44/a1/>. 
 
-n1:v3t
+n0:v3t
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich I"@de; 
 	skos:definition "umfasst das Wiedergeben von Sachverhalten und Kenntnissen im gelern-ten Zusammenhang sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren"@de.
-n1:g9b
+n0:g9b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich II"@de; 
 	skos:definition "umfasst das selbstständige Auswählen, Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Ge-lernten auf vergleichbare neue Zusammenhänge und Sachverhalte"@de.
-n1:h6r
+n0:h6r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -31,6 +30,6 @@ n0:
 	dct:title "Bildungsstandards Biologie MSA 2024 - Anforderungsbereiche"@de;
 	dct:description """Mit Blick auf die unterrichtliche Einbindung von Aufgaben werden folgende Anforderungsbereiche unterschieden:"""@de;
 	skos:hasTopConcept
-		n1:v3t,
-		n1:g9b,
-		n1:h6r.
+		n0:v3t,
+		n0:g9b,
+		n0:h6r.
